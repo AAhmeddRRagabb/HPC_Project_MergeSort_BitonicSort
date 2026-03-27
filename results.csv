@@ -1,0 +1,2 @@
+impl,size,threads,avg_time
+serial,1000000,1,0.157958
