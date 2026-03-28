@@ -2,17 +2,20 @@
 
 A comprehensive High-Performance Computing (HPC) project that benchmarks and analyzes the performance of various sorting algorithms across different architectural paradigms. This project compares a baseline **Serial Merge Sort**, a task-parallel **OpenMP Merge Sort**, and a massively parallel **CUDA Bitonic Sort**.
 
+
 ## 🚀 Overview
 The goal of this study is to measure execution time, speedup, and scaling efficiency across:
 - **4 Array Sizes:** 1M, 4M, 10M, and 16.7M elements.
 - **4 Data Distributions:** Uniform, Gaussian, Nearly Sorted, and Reversed.
 - **Varying Parallelism:** 1-16 OpenMP threads and 128-512 CUDA block sizes.
 
+
 ## 🛠️ Toolchain & Environment
 - **OS:** Linux (Ubuntu 22.04/24.04 recommended)
 - **Compiler:** `nvcc` (CUDA 12.x), `gcc` (with OpenMP support)
 - **GPU:** NVIDIA RTX 3060 Laptop GPU (Tested)
 - **Language:** C++ / CUDA C
+
 
 ## 📁 Project Structure
 ```text
@@ -27,7 +30,7 @@ The goal of this study is to measure execution time, speedup, and scaling effici
 └── run_experiments.sh     # Automation script for 144-run test suite
 ```
 
-## 📁 CLI Options
+## 🖥️ CLI Options
 
 | Category     | Option        | Type   | Description                                                     | Default                         |
 |--------------|--------------|--------|-----------------------------------------------------------------|---------------------------------|
