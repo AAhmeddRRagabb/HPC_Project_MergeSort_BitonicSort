@@ -4,19 +4,20 @@
 #include "headers.h"
 using namespace std;
 
-// The Kernel: This runs on the GPU (Device)
+
 __global__ void bitonicSortKernel(int* arr, int padded_n, int j, int k) {
     unsigned int i = threadIdx.x + blockDim.x * blockIdx.x;
     
     if (i >= padded_n) return;
 
-    unsigned int ij = i ^ j; // XOR logic to find partner
+    unsigned int ij = i ^ j; 
 
     if (ij > i) {
         bool ascending = ((i & k) == 0);
         int val_i = arr[i];
         int val_ij = arr[ij];
 
+        // swap
         if (ascending) {
             if (val_i > val_ij) {
                 arr[i] = val_ij;
@@ -31,25 +32,30 @@ __global__ void bitonicSortKernel(int* arr, int padded_n, int j, int k) {
     }
 }
 
-// The Host Function: This runs on the CPU
+
 double runBitonicSort(int* h_arr, int n, int block_size) {
+    // left shifting to pad [find the next power_2 number to]
     int padded_n = 1;
-    while (padded_n < n) padded_n <<= 1; // Power of two padding [cite: 77, 81]
+    while (padded_n < n) padded_n <<= 1; 
 
     int* d_arr;
     size_t padded_size = padded_n * sizeof(int);
 
-    // 1. Memory Setup
+    // cuda mem
     cudaMalloc(&d_arr, padded_size);
-    cudaMemset(d_arr, 0x7F, padded_size); // Fill with INT_MAX 
+    cudaMemset(d_arr, 0x7F, padded_size); 
     cudaMemcpy(d_arr, h_arr, n * sizeof(int), cudaMemcpyHostToDevice);
 
-    // 2. Performance Timing (Requirement [cite: 24])
+    // time
     cudaEvent_t start, stop;
     cudaEventCreate(&start); cudaEventCreate(&stop);
     cudaEventRecord(start);
 
-    // 3. Bitonic Network
+    // bitonic network
+    /*
+        k -> sub-seq size
+        j -> distance to partner
+    */
     for (int k = 2; k <= padded_n; k <<= 1) {
         for (int j = k >> 1; j > 0; j >>= 1) {
             int gridSize = (padded_n + block_size - 1) / block_size;

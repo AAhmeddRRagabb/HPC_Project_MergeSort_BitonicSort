@@ -8,7 +8,7 @@ using namespace std;
 
 #define THRESHOLD 1000
 
-// Merges two subarrays of arr[].
+
 void merge(int arr[], int l, int m, int r, int temp[]) {
     int i = l, j = m + 1, k = l;
     while (i <= m && j <= r) {
@@ -36,18 +36,19 @@ void mergeSort(int arr[], int l, int r, int temp[]) {
 void mergeSortParallel(int arr[], int l, int r, int temp[]) {
     if (l < r) {
 
+        // cut-off to avoid exhausted resources
         if (r - l < THRESHOLD) {
-            mergeSort(arr, l, r, temp);  // serial
+            mergeSort(arr, l, r, temp);  
             return;
         }
         
-        int m = l+(r-l)/2;
+        int m = l + (r - l) / 2;
 
         #pragma omp task
         mergeSortParallel(arr, l, m, temp);
 
         #pragma omp task
-        mergeSortParallel(arr, m+1, r, temp);
+        mergeSortParallel(arr, m + 1, r, temp);
 
         #pragma omp taskwait
 
@@ -67,34 +68,37 @@ double measure_merge_sort(int repeats, int threads, int arr_size, char* impl, ch
         int *arr = new int[arr_size];
         int *temp_buffer = new int[arr_size];
 
-        if (strcmp(array_distribution, "uniform") == 0) generate_uniform(arr, arr_size);
-        else if (strcmp(array_distribution, "gaussian") == 0) generate_gaussian(arr, arr_size);
+        if      (strcmp(array_distribution, "uniform") == 0)       generate_uniform(arr, arr_size);
+        else if (strcmp(array_distribution, "gaussian") == 0)      generate_gaussian(arr, arr_size);
         else if (strcmp(array_distribution, "nearly_sorted") == 0) generate_nearly_sorted(arr, arr_size);
-        else if (strcmp(array_distribution, "reversed") == 0) generate_reversed(arr, arr_size);
+        else if (strcmp(array_distribution, "reversed") == 0)      generate_reversed(arr, arr_size);
         else {
             cout << "Invalid Array Distribution" << endl;
             return -1.0;
         }
-
-
 
         // sort
         double start_time = get_time();
 
         if (strcmp(impl, "serial") == 0) {
             mergeSort(arr, 0, arr_size - 1, temp_buffer);
-        } else if (strcmp(impl, "omp") == 0) {
+        } 
+        
+        else if (strcmp(impl, "omp") == 0) {
             omp_set_num_threads(threads);
             #pragma omp parallel
             {
                 #pragma omp single
                 mergeSortParallel(arr, 0, arr_size - 1, temp_buffer);
             }
-        } else {
+        } 
+        
+        else {
             printf("Invalid Implementation Method");
             return -1;
         }
 
+        
         double end_time = get_time();
 
         if (!is_sorted(arr, arr_size)) {

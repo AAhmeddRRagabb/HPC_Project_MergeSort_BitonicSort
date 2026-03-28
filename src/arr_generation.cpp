@@ -1,6 +1,6 @@
-#include <cstdlib>   // for rand(), srand(), RAND_MAX
-#include <cmath>     // for sqrt(), log(), cos(), M_PI
-#include <algorithm> // for std::swap
+#include <cstdlib>  
+#include <cmath>     
+#include <algorithm>
 #include "headers.h"
 
 void generate_uniform(int* arr, int n) {
@@ -8,8 +8,7 @@ void generate_uniform(int* arr, int n) {
 }
 
 
-
-// Gaussian (approx via Box-Muller)
+// Gaussian (Box-Muller)
 void generate_gaussian(int* arr, int n) {
     for (int i = 0; i < n; i++) {
         double u1 = (rand() + 1.0) / (RAND_MAX + 1.0);
@@ -21,8 +20,11 @@ void generate_gaussian(int* arr, int n) {
 
 // Nearly sorted
 void generate_nearly_sorted(int* arr, int n) {
+    // generate sorted
     for (int i = 0; i < n; i++) arr[i] = i;
-    for (int i = 0; i < n/100; i++) { // small fraction swapped
+
+    // small fraction swapped
+    for (int i = 0; i < n / 100; i++) { 
         int a = rand() % n, b = rand() % n;
         std::swap(arr[a], arr[b]);
     }

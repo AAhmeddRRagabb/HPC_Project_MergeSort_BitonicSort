@@ -1,8 +1,9 @@
-#!/bin/bash
 
+# compile
 nvcc -Xcompiler -fopenmp main.cu src/arr_generation.cpp src/merge_sort.cpp src/utils.cpp src/bitonic_sort.cu -o app.exe
 
 
+# experiments
 ARR_SIZES=(1048576 4194304 16777216 10000000)
 ARR_DISTRIBUTIONS=("uniform" "gaussian" "nearly_sorted" "reversed")
 OMP_THREADS=(1 2 4 8 16)
@@ -10,6 +11,12 @@ CUDA_BLOCKSIZES=(128 256 512)
 RUN_ID=1 
 
 
+# empty the results files
+> results/system_logs.txt
+> results/running_results.txt
+
+
+# start logging
 echo ">> Starting HPC Project ..."
 echo "implementation,n_repeats,array_size,array_distribution,n_threads,blocksize,avg_time" > results/running_results.csv
 
@@ -23,7 +30,7 @@ echo -e "\n" >> results/system_logs.txt
 
 for s in "${ARR_SIZES[@]}"; do
     for d in "${ARR_DISTRIBUTIONS[@]}"; do
-        ./app.exe --impl serial --size $s --distribution $d --repeats 5 --output results/running_results.csv --logs results/system_logs.txt --run_id $RUN_ID
+        ./app.exe --impl serial --size $s --distribution $d --repeats 5 --output results/running_results.csv --logs results/system_logs.txt --run_id $RUN_ID --seed 42
         ((RUN_ID++))
     done
 done
@@ -44,7 +51,7 @@ echo -e "\n" >> results/system_logs.txt
 for s in "${ARR_SIZES[@]}"; do
     for d in "${ARR_DISTRIBUTIONS[@]}"; do
         for t in "${OMP_THREADS[@]}"; do
-            ./app.exe --impl omp --size $s --distribution $d --repeats 5 --threads $t --output results/running_results.csv --logs results/system_logs.txt --run_id $RUN_ID
+            ./app.exe --impl omp --size $s --distribution $d --repeats 5 --threads $t --output results/running_results.csv --logs results/system_logs.txt --run_id $RUN_ID --seed 42
             ((RUN_ID++))
         done
     done
@@ -67,7 +74,7 @@ echo -e "\n" >> results/system_logs.txt
 for s in "${ARR_SIZES[@]}"; do
     for d in "${ARR_DISTRIBUTIONS[@]}"; do
         for b in "${CUDA_BLOCKSIZES[@]}"; do
-            ./app.exe --impl cuda --size $s --distribution $d --repeats 5 --blocksize $b --output results/running_results.csv --logs results/system_logs.txt --run_id $RUN_ID
+            ./app.exe --impl cuda --size $s --distribution $d --repeats 5 --blocksize $b --output results/running_results.csv --logs results/system_logs.txt --run_id $RUN_ID --seed 42
             ((RUN_ID++))
         done
     done
