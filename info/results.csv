@@ -1,6 +1,0 @@
-sort_method,impl,arr_size,arr_distribution,n_threads,avg_time)
-merge,openmp,1000000,uniform,4,0.062262
-serial,1048576,uniform,1,0.145238
-omp,16777216,nearly_sorted,8,0.392545
-serial,1048576,uniform,1,0.146679
-omp,16777216,nearly_sorted,8,0.401746

@@ -90,12 +90,16 @@ double measure_merge_sort(int repeats, int threads, int arr_size, char* impl, ch
                 #pragma omp single
                 mergeSortParallel(arr, 0, arr_size - 1, temp_buffer);
             }
+        } else {
+            printf("Invalid Implementation Method");
+            return -1;
         }
 
         double end_time = get_time();
 
         if (!is_sorted(arr, arr_size)) {
-            printf("Verification Failed for %s!\n", impl);
+            printf("Not Sorted Array while using %s!\n", impl);
+            return -1;
         }
 
         // accumulate time for avg

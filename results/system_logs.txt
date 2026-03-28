@@ -1,0 +1,3067 @@
+--- Starting Serial Experiments ---
+
+
+>> RunID: 1
+
+>> Running Details:
+- Implementation: serial
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: uniform
+- Threads: 0
+- Blocksize: 0
+- Avg Time: 0.155119
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+---------------------------
+>> RunID: 2
+
+>> Running Details:
+- Implementation: serial
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: gaussian
+- Threads: 0
+- Blocksize: 0
+- Avg Time: 0.136650
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+---------------------------
+>> RunID: 3
+
+>> Running Details:
+- Implementation: serial
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: nearly_sorted
+- Threads: 0
+- Blocksize: 0
+- Avg Time: 0.084480
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+---------------------------
+>> RunID: 4
+
+>> Running Details:
+- Implementation: serial
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: reversed
+- Threads: 0
+- Blocksize: 0
+- Avg Time: 0.077724
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+---------------------------
+>> RunID: 5
+
+>> Running Details:
+- Implementation: serial
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: uniform
+- Threads: 0
+- Blocksize: 0
+- Avg Time: 0.645236
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+---------------------------
+>> RunID: 6
+
+>> Running Details:
+- Implementation: serial
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: gaussian
+- Threads: 0
+- Blocksize: 0
+- Avg Time: 0.578529
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+---------------------------
+>> RunID: 7
+
+>> Running Details:
+- Implementation: serial
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: nearly_sorted
+- Threads: 0
+- Blocksize: 0
+- Avg Time: 0.361103
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+---------------------------
+>> RunID: 8
+
+>> Running Details:
+- Implementation: serial
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: reversed
+- Threads: 0
+- Blocksize: 0
+- Avg Time: 0.325140
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+---------------------------
+>> RunID: 9
+
+>> Running Details:
+- Implementation: serial
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: uniform
+- Threads: 0
+- Blocksize: 0
+- Avg Time: 2.767556
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+---------------------------
+>> RunID: 10
+
+>> Running Details:
+- Implementation: serial
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: gaussian
+- Threads: 0
+- Blocksize: 0
+- Avg Time: 2.523500
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+---------------------------
+>> RunID: 11
+
+>> Running Details:
+- Implementation: serial
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: nearly_sorted
+- Threads: 0
+- Blocksize: 0
+- Avg Time: 1.628796
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+---------------------------
+>> RunID: 12
+
+>> Running Details:
+- Implementation: serial
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: reversed
+- Threads: 0
+- Blocksize: 0
+- Avg Time: 1.437996
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+---------------------------
+>> RunID: 13
+
+>> Running Details:
+- Implementation: serial
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: uniform
+- Threads: 0
+- Blocksize: 0
+- Avg Time: 1.629954
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+---------------------------
+>> RunID: 14
+
+>> Running Details:
+- Implementation: serial
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: gaussian
+- Threads: 0
+- Blocksize: 0
+- Avg Time: 1.498444
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+---------------------------
+>> RunID: 15
+
+>> Running Details:
+- Implementation: serial
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: nearly_sorted
+- Threads: 0
+- Blocksize: 0
+- Avg Time: 0.934547
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+---------------------------
+>> RunID: 16
+
+>> Running Details:
+- Implementation: serial
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: reversed
+- Threads: 0
+- Blocksize: 0
+- Avg Time: 0.834548
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+---------------------------
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+--- Starting OpenMP Experiments ---
+
+
+>> RunID: 17
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: uniform
+- Threads: 1
+- Blocksize: 0
+- Avg Time: 0.151243
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 1
+
+---------------------------
+>> RunID: 18
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: uniform
+- Threads: 2
+- Blocksize: 0
+- Avg Time: 0.080367
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 2
+
+---------------------------
+>> RunID: 19
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: uniform
+- Threads: 4
+- Blocksize: 0
+- Avg Time: 0.059887
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 4
+
+---------------------------
+>> RunID: 20
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: uniform
+- Threads: 8
+- Blocksize: 0
+- Avg Time: 0.039530
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 8
+
+---------------------------
+>> RunID: 21
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: uniform
+- Threads: 16
+- Blocksize: 0
+- Avg Time: 0.033329
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 16
+
+---------------------------
+>> RunID: 22
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: gaussian
+- Threads: 1
+- Blocksize: 0
+- Avg Time: 0.140741
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 1
+
+---------------------------
+>> RunID: 23
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: gaussian
+- Threads: 2
+- Blocksize: 0
+- Avg Time: 0.071935
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 2
+
+---------------------------
+>> RunID: 24
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: gaussian
+- Threads: 4
+- Blocksize: 0
+- Avg Time: 0.049969
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 4
+
+---------------------------
+>> RunID: 25
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: gaussian
+- Threads: 8
+- Blocksize: 0
+- Avg Time: 0.035153
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 8
+
+---------------------------
+>> RunID: 26
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: gaussian
+- Threads: 16
+- Blocksize: 0
+- Avg Time: 0.027142
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 16
+
+---------------------------
+>> RunID: 27
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: nearly_sorted
+- Threads: 1
+- Blocksize: 0
+- Avg Time: 0.083833
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 1
+
+---------------------------
+>> RunID: 28
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: nearly_sorted
+- Threads: 2
+- Blocksize: 0
+- Avg Time: 0.044026
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 2
+
+---------------------------
+>> RunID: 29
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: nearly_sorted
+- Threads: 4
+- Blocksize: 0
+- Avg Time: 0.033810
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 4
+
+---------------------------
+>> RunID: 30
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: nearly_sorted
+- Threads: 8
+- Blocksize: 0
+- Avg Time: 0.026127
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 8
+
+---------------------------
+>> RunID: 31
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: nearly_sorted
+- Threads: 16
+- Blocksize: 0
+- Avg Time: 0.023250
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 16
+
+---------------------------
+>> RunID: 32
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: reversed
+- Threads: 1
+- Blocksize: 0
+- Avg Time: 0.075481
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 1
+
+---------------------------
+>> RunID: 33
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: reversed
+- Threads: 2
+- Blocksize: 0
+- Avg Time: 0.039251
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 2
+
+---------------------------
+>> RunID: 34
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: reversed
+- Threads: 4
+- Blocksize: 0
+- Avg Time: 0.034791
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 4
+
+---------------------------
+>> RunID: 35
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: reversed
+- Threads: 8
+- Blocksize: 0
+- Avg Time: 0.024099
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 8
+
+---------------------------
+>> RunID: 36
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: reversed
+- Threads: 16
+- Blocksize: 0
+- Avg Time: 0.018402
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 16
+
+---------------------------
+>> RunID: 37
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: uniform
+- Threads: 1
+- Blocksize: 0
+- Avg Time: 0.706422
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 1
+
+---------------------------
+>> RunID: 38
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: uniform
+- Threads: 2
+- Blocksize: 0
+- Avg Time: 0.382593
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 2
+
+---------------------------
+>> RunID: 39
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: uniform
+- Threads: 4
+- Blocksize: 0
+- Avg Time: 0.268648
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 4
+
+---------------------------
+>> RunID: 40
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: uniform
+- Threads: 8
+- Blocksize: 0
+- Avg Time: 0.168111
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 8
+
+---------------------------
+>> RunID: 41
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: uniform
+- Threads: 16
+- Blocksize: 0
+- Avg Time: 0.120824
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 16
+
+---------------------------
+>> RunID: 42
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: gaussian
+- Threads: 1
+- Blocksize: 0
+- Avg Time: 0.588651
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 1
+
+---------------------------
+>> RunID: 43
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: gaussian
+- Threads: 2
+- Blocksize: 0
+- Avg Time: 0.318725
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 2
+
+---------------------------
+>> RunID: 44
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: gaussian
+- Threads: 4
+- Blocksize: 0
+- Avg Time: 0.224134
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 4
+
+---------------------------
+>> RunID: 45
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: gaussian
+- Threads: 8
+- Blocksize: 0
+- Avg Time: 0.157996
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 8
+
+---------------------------
+>> RunID: 46
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: gaussian
+- Threads: 16
+- Blocksize: 0
+- Avg Time: 0.110554
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 16
+
+---------------------------
+>> RunID: 47
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: nearly_sorted
+- Threads: 1
+- Blocksize: 0
+- Avg Time: 0.374421
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 1
+
+---------------------------
+>> RunID: 48
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: nearly_sorted
+- Threads: 2
+- Blocksize: 0
+- Avg Time: 0.201649
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 2
+
+---------------------------
+>> RunID: 49
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: nearly_sorted
+- Threads: 4
+- Blocksize: 0
+- Avg Time: 0.150245
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 4
+
+---------------------------
+>> RunID: 50
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: nearly_sorted
+- Threads: 8
+- Blocksize: 0
+- Avg Time: 0.109438
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 8
+
+---------------------------
+>> RunID: 51
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: nearly_sorted
+- Threads: 16
+- Blocksize: 0
+- Avg Time: 0.082592
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 16
+
+---------------------------
+>> RunID: 52
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: reversed
+- Threads: 1
+- Blocksize: 0
+- Avg Time: 0.357382
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 1
+
+---------------------------
+>> RunID: 53
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: reversed
+- Threads: 2
+- Blocksize: 0
+- Avg Time: 0.194411
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 2
+
+---------------------------
+>> RunID: 54
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: reversed
+- Threads: 4
+- Blocksize: 0
+- Avg Time: 0.138956
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 4
+
+---------------------------
+>> RunID: 55
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: reversed
+- Threads: 8
+- Blocksize: 0
+- Avg Time: 0.094208
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 8
+
+---------------------------
+>> RunID: 56
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: reversed
+- Threads: 16
+- Blocksize: 0
+- Avg Time: 0.075719
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 16
+
+---------------------------
+>> RunID: 57
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: uniform
+- Threads: 1
+- Blocksize: 0
+- Avg Time: 2.815705
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 1
+
+---------------------------
+>> RunID: 58
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: uniform
+- Threads: 2
+- Blocksize: 0
+- Avg Time: 1.455972
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 2
+
+---------------------------
+>> RunID: 59
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: uniform
+- Threads: 4
+- Blocksize: 0
+- Avg Time: 1.005827
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 4
+
+---------------------------
+>> RunID: 60
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: uniform
+- Threads: 8
+- Blocksize: 0
+- Avg Time: 0.733714
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 8
+
+---------------------------
+>> RunID: 61
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: uniform
+- Threads: 16
+- Blocksize: 0
+- Avg Time: 0.486962
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 16
+
+---------------------------
+>> RunID: 62
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: gaussian
+- Threads: 1
+- Blocksize: 0
+- Avg Time: 2.517291
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 1
+
+---------------------------
+>> RunID: 63
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: gaussian
+- Threads: 2
+- Blocksize: 0
+- Avg Time: 1.367716
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 2
+
+---------------------------
+>> RunID: 64
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: gaussian
+- Threads: 4
+- Blocksize: 0
+- Avg Time: 0.990434
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 4
+
+---------------------------
+>> RunID: 65
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: gaussian
+- Threads: 8
+- Blocksize: 0
+- Avg Time: 0.657701
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 8
+
+---------------------------
+>> RunID: 66
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: gaussian
+- Threads: 16
+- Blocksize: 0
+- Avg Time: 0.459369
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 16
+
+---------------------------
+>> RunID: 67
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: nearly_sorted
+- Threads: 1
+- Blocksize: 0
+- Avg Time: 1.693661
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 1
+
+---------------------------
+>> RunID: 68
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: nearly_sorted
+- Threads: 2
+- Blocksize: 0
+- Avg Time: 0.883095
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 2
+
+---------------------------
+>> RunID: 69
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: nearly_sorted
+- Threads: 4
+- Blocksize: 0
+- Avg Time: 0.723096
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 4
+
+---------------------------
+>> RunID: 70
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: nearly_sorted
+- Threads: 8
+- Blocksize: 0
+- Avg Time: 0.454446
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 8
+
+---------------------------
+>> RunID: 71
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: nearly_sorted
+- Threads: 16
+- Blocksize: 0
+- Avg Time: 0.374312
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 16
+
+---------------------------
+>> RunID: 72
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: reversed
+- Threads: 1
+- Blocksize: 0
+- Avg Time: 1.465533
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 1
+
+---------------------------
+>> RunID: 73
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: reversed
+- Threads: 2
+- Blocksize: 0
+- Avg Time: 0.837318
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 2
+
+---------------------------
+>> RunID: 74
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: reversed
+- Threads: 4
+- Blocksize: 0
+- Avg Time: 0.568533
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 4
+
+---------------------------
+>> RunID: 75
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: reversed
+- Threads: 8
+- Blocksize: 0
+- Avg Time: 0.420475
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 8
+
+---------------------------
+>> RunID: 76
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: reversed
+- Threads: 16
+- Blocksize: 0
+- Avg Time: 0.313805
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 16
+
+---------------------------
+>> RunID: 77
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: uniform
+- Threads: 1
+- Blocksize: 0
+- Avg Time: 1.676554
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 1
+
+---------------------------
+>> RunID: 78
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: uniform
+- Threads: 2
+- Blocksize: 0
+- Avg Time: 0.864404
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 2
+
+---------------------------
+>> RunID: 79
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: uniform
+- Threads: 4
+- Blocksize: 0
+- Avg Time: 0.616469
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 4
+
+---------------------------
+>> RunID: 80
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: uniform
+- Threads: 8
+- Blocksize: 0
+- Avg Time: 0.444530
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 8
+
+---------------------------
+>> RunID: 81
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: uniform
+- Threads: 16
+- Blocksize: 0
+- Avg Time: 0.295598
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 16
+
+---------------------------
+>> RunID: 82
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: gaussian
+- Threads: 1
+- Blocksize: 0
+- Avg Time: 1.506352
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 1
+
+---------------------------
+>> RunID: 83
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: gaussian
+- Threads: 2
+- Blocksize: 0
+- Avg Time: 0.821394
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 2
+
+---------------------------
+>> RunID: 84
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: gaussian
+- Threads: 4
+- Blocksize: 0
+- Avg Time: 0.573360
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 4
+
+---------------------------
+>> RunID: 85
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: gaussian
+- Threads: 8
+- Blocksize: 0
+- Avg Time: 0.377116
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 8
+
+---------------------------
+>> RunID: 86
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: gaussian
+- Threads: 16
+- Blocksize: 0
+- Avg Time: 0.274962
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 16
+
+---------------------------
+>> RunID: 87
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: nearly_sorted
+- Threads: 1
+- Blocksize: 0
+- Avg Time: 1.014710
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 1
+
+---------------------------
+>> RunID: 88
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: nearly_sorted
+- Threads: 2
+- Blocksize: 0
+- Avg Time: 0.524265
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 2
+
+---------------------------
+>> RunID: 89
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: nearly_sorted
+- Threads: 4
+- Blocksize: 0
+- Avg Time: 0.380187
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 4
+
+---------------------------
+>> RunID: 90
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: nearly_sorted
+- Threads: 8
+- Blocksize: 0
+- Avg Time: 0.251020
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 8
+
+---------------------------
+>> RunID: 91
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: nearly_sorted
+- Threads: 16
+- Blocksize: 0
+- Avg Time: 0.207771
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 16
+
+---------------------------
+>> RunID: 92
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: reversed
+- Threads: 1
+- Blocksize: 0
+- Avg Time: 0.860506
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 1
+
+---------------------------
+>> RunID: 93
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: reversed
+- Threads: 2
+- Blocksize: 0
+- Avg Time: 0.464209
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 2
+
+---------------------------
+>> RunID: 94
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: reversed
+- Threads: 4
+- Blocksize: 0
+- Avg Time: 0.350947
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 4
+
+---------------------------
+>> RunID: 95
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: reversed
+- Threads: 8
+- Blocksize: 0
+- Avg Time: 0.261307
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 8
+
+---------------------------
+>> RunID: 96
+
+>> Running Details:
+- Implementation: omp
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: reversed
+- Threads: 16
+- Blocksize: 0
+- Avg Time: 0.185863
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> OpenMP (CPU) Info:
+- Logical Cores Available: 16
+- Max OpenMP Threads: 16
+
+---------------------------
+--- Starting CUDA Experiments ---
+
+
+>> RunID: 97
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: uniform
+- Threads: 0
+- Blocksize: 128
+- Avg Time: 0.006079
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 98
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: uniform
+- Threads: 0
+- Blocksize: 256
+- Avg Time: 0.005461
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 99
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: uniform
+- Threads: 0
+- Blocksize: 512
+- Avg Time: 0.005564
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 100
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: gaussian
+- Threads: 0
+- Blocksize: 128
+- Avg Time: 0.005639
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 101
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: gaussian
+- Threads: 0
+- Blocksize: 256
+- Avg Time: 0.005212
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 102
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: gaussian
+- Threads: 0
+- Blocksize: 512
+- Avg Time: 0.005497
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 103
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: nearly_sorted
+- Threads: 0
+- Blocksize: 128
+- Avg Time: 0.005386
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 104
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: nearly_sorted
+- Threads: 0
+- Blocksize: 256
+- Avg Time: 0.005271
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 105
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: nearly_sorted
+- Threads: 0
+- Blocksize: 512
+- Avg Time: 0.005432
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 106
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: reversed
+- Threads: 0
+- Blocksize: 128
+- Avg Time: 0.005064
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 107
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: reversed
+- Threads: 0
+- Blocksize: 256
+- Avg Time: 0.005026
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 108
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 1048576
+- Arr Distribution: reversed
+- Threads: 0
+- Blocksize: 512
+- Avg Time: 0.005422
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 109
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: uniform
+- Threads: 0
+- Blocksize: 128
+- Avg Time: 0.023503
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 110
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: uniform
+- Threads: 0
+- Blocksize: 256
+- Avg Time: 0.023191
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 111
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: uniform
+- Threads: 0
+- Blocksize: 512
+- Avg Time: 0.023227
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 112
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: gaussian
+- Threads: 0
+- Blocksize: 128
+- Avg Time: 0.021866
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 113
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: gaussian
+- Threads: 0
+- Blocksize: 256
+- Avg Time: 0.021731
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 114
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: gaussian
+- Threads: 0
+- Blocksize: 512
+- Avg Time: 0.021824
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 115
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: nearly_sorted
+- Threads: 0
+- Blocksize: 128
+- Avg Time: 0.022853
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 116
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: nearly_sorted
+- Threads: 0
+- Blocksize: 256
+- Avg Time: 0.022636
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 117
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: nearly_sorted
+- Threads: 0
+- Blocksize: 512
+- Avg Time: 0.022712
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 118
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: reversed
+- Threads: 0
+- Blocksize: 128
+- Avg Time: 0.021735
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 119
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: reversed
+- Threads: 0
+- Blocksize: 256
+- Avg Time: 0.021706
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 120
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 4194304
+- Arr Distribution: reversed
+- Threads: 0
+- Blocksize: 512
+- Avg Time: 0.021577
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 121
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: uniform
+- Threads: 0
+- Blocksize: 128
+- Avg Time: 0.103760
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 122
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: uniform
+- Threads: 0
+- Blocksize: 256
+- Avg Time: 0.103669
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 123
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: uniform
+- Threads: 0
+- Blocksize: 512
+- Avg Time: 0.103701
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 124
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: gaussian
+- Threads: 0
+- Blocksize: 128
+- Avg Time: 0.096819
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 125
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: gaussian
+- Threads: 0
+- Blocksize: 256
+- Avg Time: 0.096487
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 126
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: gaussian
+- Threads: 0
+- Blocksize: 512
+- Avg Time: 0.096667
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 127
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: nearly_sorted
+- Threads: 0
+- Blocksize: 128
+- Avg Time: 0.104013
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 128
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: nearly_sorted
+- Threads: 0
+- Blocksize: 256
+- Avg Time: 0.103434
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 129
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: nearly_sorted
+- Threads: 0
+- Blocksize: 512
+- Avg Time: 0.103944
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 130
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: reversed
+- Threads: 0
+- Blocksize: 128
+- Avg Time: 0.098798
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 131
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: reversed
+- Threads: 0
+- Blocksize: 256
+- Avg Time: 0.098420
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 132
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 16777216
+- Arr Distribution: reversed
+- Threads: 0
+- Blocksize: 512
+- Avg Time: 0.098879
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 133
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: uniform
+- Threads: 0
+- Blocksize: 128
+- Avg Time: 0.088162
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 134
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: uniform
+- Threads: 0
+- Blocksize: 256
+- Avg Time: 0.087835
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 135
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: uniform
+- Threads: 0
+- Blocksize: 512
+- Avg Time: 0.087890
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 136
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: gaussian
+- Threads: 0
+- Blocksize: 128
+- Avg Time: 0.084110
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 137
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: gaussian
+- Threads: 0
+- Blocksize: 256
+- Avg Time: 0.083452
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 138
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: gaussian
+- Threads: 0
+- Blocksize: 512
+- Avg Time: 0.084383
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 139
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: nearly_sorted
+- Threads: 0
+- Blocksize: 128
+- Avg Time: 0.087853
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 140
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: nearly_sorted
+- Threads: 0
+- Blocksize: 256
+- Avg Time: 0.087386
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 141
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: nearly_sorted
+- Threads: 0
+- Blocksize: 512
+- Avg Time: 0.087665
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 142
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: reversed
+- Threads: 0
+- Blocksize: 128
+- Avg Time: 0.085144
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 143
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: reversed
+- Threads: 0
+- Blocksize: 256
+- Avg Time: 0.084533
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
+>> RunID: 144
+
+>> Running Details:
+- Implementation: cuda
+- Repeats: 5
+- Arr Size: 10000000
+- Arr Distribution: reversed
+- Threads: 0
+- Blocksize: 512
+- Avg Time: 0.084877
+
+>> Toolchain:
+- Device Compiler: NVCC (CUDA Compiler)
+- Host Compiler: GCC 13.3
+- OS: Linux System
+
+>> CUDA (GPU) Log: 
+- GPU Model: NVIDIA GeForce RTX 3060 Laptop GPU
+- VRAM: 6143 MB
+- Shared Memory per Block: 48 KB
+- Compute Capability: 8.6
+
+---------------------------
