@@ -43,3 +43,8 @@ The goal of this study is to measure execution time, speedup, and scaling effici
 | I/O & ID     | --output     | path   | Destination for .csv performance results                        | results/running_results.csv     |
 |              | --logs       | path   | Destination for .txt hardware/system logs                       | results/system_logs.txt         |
 |              | --run_id     | int    | Unique ID for experiment tracking                               | 1                               |
+
+
+---
+---
+
