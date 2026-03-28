@@ -28,13 +28,15 @@ The goal of this study is to measure execution time, speedup, and scaling effici
 ```
 
 ## 📁 CLI Options
-Option,Type,Description,Default
---impl,string,"Implementation: serial, omp, or cuda",serial
---size,int,Number of elements in the array,1000000
---distribution,string,"Data pattern: uniform, gaussian, nearly_sorted, reversed",uniform
---repeats,int,Number of times to repeat the experiment for averaging,5
---threads,int,(OpenMP only) Number of CPU threads to use,0
---blocksize,int,(CUDA only) Number of threads per GPU block,0
---output,path,Path to the .csv file to append results,results/running_results.csv
---logs,path,Path to the .txt file for hardware/system logs,results/system_logs.txt
---run_id,int,Unique experiment ID for tracking in logs,1
+
+| Category     | Option        | Type   | Description                                                     | Default                         |
+|--------------|--------------|--------|-----------------------------------------------------------------|---------------------------------|
+| Core         | --impl       | string | Execution mode: serial, omp, or cuda                            | serial                          |
+|              | --size       | int    | Number of elements in the array                                 | 1000000                         |
+|              | --distribution | string | Data pattern: uniform, gaussian, nearly_sorted, reversed        | uniform                         |
+|              | --repeats    | int    | Number of iterations for averaging time                         | 5                               |
+| Parallelism  | --threads    | int    | (OpenMP only) Number of CPU threads                             | 0                               |
+|              | --blocksize  | int    | (CUDA only) Threads per GPU block                               | 0                               |
+| I/O & ID     | --output     | path   | Destination for .csv performance results                        | results/running_results.csv     |
+|              | --logs       | path   | Destination for .txt hardware/system logs                       | results/system_logs.txt         |
+|              | --run_id     | int    | Unique ID for experiment tracking                               | 1                               |
